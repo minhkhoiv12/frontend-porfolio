@@ -43,14 +43,14 @@ export default function Profile() {
               </h1>
             </span>
             <span className="profile-role-tagline">
-              Knack of building applications with back end operations.
+              Knack of building web applications with back end operations.
             </span>
           </div>
 
           <div className="profile-options">
-            <button className="btn primary-btn"> Hire Me </button>
+            {/* <button className="btn primary-btn"> Hire Me </button> */}
             <a href="ehizcv.pdf" download="Ehiedu Ehizcv.pdf">
-              <button className="btn highlighted-btn">Get Resume</button>
+              <button className="btn highlighted-btn" style={{ marginLeft: "-10px" }}>Get Resume</button>
             </a>
           </div>
         </div>

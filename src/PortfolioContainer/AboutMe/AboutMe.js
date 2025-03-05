@@ -16,13 +16,13 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.",
+      "Backend Developer with experience in Node.js, database management, and Docker. I have proven expertise in designing and implementing backend systems, building RESTful APIs, and efficiently managing databases. I am also proficient in creating comprehensive Technical Specification Documents (TSD), including ERD, CDM, PDM, ACTIVITY, SEQUENCE. My goal is to contribute to the development of robust and reliable systems while ensuring effective communication within development teams.",
     highlights: {
       bullets: [
-        "Full Stack web and mobile development",
-        "Interactive Front End as per the design",
-        "React and React Native",
-        "Redux for State Mnanagement",
+        "Backend development using Node.js (Express)",
+        "Designing & managing databases (MongoDB, MySQL, SQL Server)",
+        "Version control with Git and GitHub",
+        "Cloud deployment and backend hosting (AWS, Vercel)",
         "Building REST API",
         "Managing database",
       ],
@@ -41,7 +41,7 @@ export default function AboutMe(props) {
   return (
     <div className="about-me-container screen-container" id={props.id || ""}>
       <div className="about-me-parent">
-        <ScreenHeading title={"About Me"} subHeading={"Why Choose Me?"} />
+        <ScreenHeading title={"About Me"} subHeading={"Let me tell you a bit about myself?"} />
         <div className="about-me-card">
           <div className="about-me-profile"></div>
           <div className="about-me-details">
@@ -54,12 +54,16 @@ export default function AboutMe(props) {
               </div>
               {renderHighlight()}
             </div>
-            <div className="about-me-options">
-              <button className="btn primary-btn"> Hire Me </button>
-              <a href="ehizcv.pdf" download="Ehiedu Ehizcv.pdf">
-                <button className="btn highlighted-btn">Get Resume</button>
-              </a>
-            </div>
+            <div 
+  className="about-me-options" 
+  style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
+>
+  {/* <button className="btn primary-btn"> Hire Me </button> */}
+  <a href="ehizcv.pdf" download="Ehiedu Ehizcv.pdf">
+    <button className="btn highlighted-btn">Get Resume</button>
+  </a>
+</div>
+
           </div>
         </div>
       </div>
