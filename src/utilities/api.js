@@ -1,5 +1,5 @@
 import axios from "axios";
-const production_api = "https://test11-liard-xi.vercel.app";
+const production_api = "https://backend-portfolio-soka.onrender.com";
 
 const api = axios.create({
   baseURL: production_api,
