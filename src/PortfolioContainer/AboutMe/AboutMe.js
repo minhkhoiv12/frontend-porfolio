@@ -59,7 +59,7 @@ export default function AboutMe(props) {
   style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
 >
   {/* <button className="btn primary-btn"> Hire Me </button> */}
-  <a href="ehizcv.pdf" download="Ehiedu Ehizcv.pdf">
+  <a href="TranMinhKhoi_Backend_Developer_CV.pdf" download="Ehiedu TranMinhKhoi_Backend_Developer_CV.pdf">
     <button className="btn highlighted-btn">Get Resume</button>
   </a>
 </div>

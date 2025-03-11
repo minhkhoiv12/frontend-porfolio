@@ -49,7 +49,7 @@ export default function Profile() {
 
           <div className="profile-options">
             {/* <button className="btn primary-btn"> Hire Me </button> */}
-            <a href="ehizcv.pdf" download="Ehiedu Ehizcv.pdf">
+            <a href="TranMinhKhoi_Backend_Developer_CV.pdf" download="Ehiedu TranMinhKhoi_Backend_Developer_CV.pdf">
               <button className="btn highlighted-btn" style={{ marginLeft: "-10px" }}>Get Resume</button>
             </a>
           </div>
