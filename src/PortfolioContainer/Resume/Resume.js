@@ -82,14 +82,11 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="education">
       <ResumeHeading
         heading={"Ho Chi Minh City University of Education(HCMUE)"}
-        subHeading={"MaJOR - Software Engineering (GPA: 8.84/10)"}
+        subHeading={"MaJOR - Software Engineering (GPA: 3.4/4)"}
         fromDate={"2021"}
         toDate={"2025"}
       />
-      <ResumeHeading
-        heading={"Award"}
-        subHeading={"Received the Excellent Scholarship twice"}
-      />
+    
 
 
       <ResumeHeading
