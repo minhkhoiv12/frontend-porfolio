@@ -63,14 +63,14 @@ const Resume = (props) => {
   const projectsDetails = [
     {
       title: "Build Complete Electronics Shopping & Ordering",
-      duration: { fromDate: "Oct 2024 ", toDate: " Feb 2025" },
+      duration: { fromDate: "Sep 2024  ", toDate: " Jan 2025" },
       description:
       " Built on the MVC (Model-View-Controller) architecture. It includes secure authentication, protected routes, live chat, multi-role dashboards, wishlist & cart functionality, an advanced checkout system with Stripe, product reviews, stock management, and Cloudinary integration for image uploads.",
       subHeading: "Technologies Used: React.js,Taildwindcss, Redux, Hooks, Node.js, Express.js and MongoDB",
     },
     {
       title: "Build Complete Pixora Project",
-      duration: { fromDate: "Jan 2025 ", toDate: " Feb 2025" },
+      duration: { fromDate: "Dec 2024  ", toDate: " Feb 2025" },
       description:
         "It features secure API access, JWT-based authentication, Cloudinary integration for image handling, and an interactive UI with drag-and-move functionality, flexible resizing, text customization, and seamless image uploading.",
       subHeading:
@@ -82,7 +82,7 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="education">
       <ResumeHeading
         heading={"Ho Chi Minh City University of Education(HCMUE)"}
-        subHeading={"MaJOR - Software Engineering (GPA: 3.4/4)"}
+        subHeading={"MaJOR - Software Engineering (GPA: 3.25/4)"}
         fromDate={"2021"}
         toDate={"2025"}
       />
